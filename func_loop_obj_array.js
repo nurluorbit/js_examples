@@ -5,22 +5,6 @@ function ArrayPlus (inputArray){
 let Arraycim = ArrayPlus([1,0,3]);
 console.log(Arraycim)
 
-let info = [{
-  "name": "Jason",
-  "gender": "M",
-  "age": 27
-},
-{
-  "name": "Rosita",
-  "gender": "F",
-  "age": 23
-},
-{
-  "name": "Leo",
-  "gender": "M",
-  "age": 19
-}];
-
 function nameobjectier(array=[]) {
   output = {}
 
@@ -37,5 +21,21 @@ function nameobjectier(array=[]) {
 
   return output;
 }
+
+let info = [{
+  "name": "Jason",
+  "gender": "M",
+  "age": 27
+},
+{
+  "name": "Rosita",
+  "gender": "F",
+  "age": 23
+},
+{
+  "name": "Leo",
+  "gender": "M",
+  "age": 19
+}];
 
 console.log(nameobjectier(info))
